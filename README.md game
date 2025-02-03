@@ -1,0 +1,34 @@
+**Snake Game using Pygame**
+This project is a classic Snake game built using Python and the Pygame library. The objective of the game is to navigate the snake to eat the food and grow longer without colliding with the walls or itself.
+
+**Features:**
+Snake Movement: Controlled by arrow keys (up, down, left, right).
+
+Food Generation: Randomly positioned on the screen.
+
+Collision Detection: Ends the game if the snake collides with the walls or itself.
+
+Game Over Screen: Displays a message when the game ends.
+
+**How to Run**
+Install Pygame: Ensure you have Pygame installed using pip install pygame.
+
+Run the Game: Execute the snake_game.py script using python snake_game.py.
+
+**Code Overview**
+Initialization: Set up the game window, clock, and fonts.
+
+Event Handling: Process user input to change snake direction.
+
+Game Logic: Move the snake, handle food consumption, and check for collisions.
+
+Rendering: Draw the snake and food on the screen, update the display.
+
+Game Over: Display a "You Lost!" message and close the game after a delay.
+**
+Future Improvements**
+Add a score counter to track the player's progress.
+
+Include sound effects for a more engaging experience.
+
+Enhance graphics with custom sprites and backgrounds.
